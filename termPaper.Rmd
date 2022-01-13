@@ -20,6 +20,16 @@ header-includes: \usepackage{amsmath} \usepackage{color} \usepackage[english]{ba
 \maketitle
 
 \section{Introduction}
+  Recommendation Systems are becoming more and more popular. Using a good recommendation system has become an essential part of most businesses. More and more companies are using their own version of recommendation systems. Big companies like Netflix, Youtube, Amazon, Airbnb, Facebook all have their recommendation systems. People are becoming more platform dependent, we want the application to tell us what we want. A Netflix user is satisfied because the recommendation they get for movies and shows are more personalized for their need. Amazon sells more product when they show products that a person would like to buy. Ads are more likely to generate revenue when the ads are relevant. \cite{RecommendationSystems}
+\
+In this study, we would learn different recommendation systems and how they function. We aim to develop our own recommendation systems using Deep Learning and Machine Learning methods.
+
+
+\clearpage
+
+\bibliographystyle{unsrt}
+\bibliography{one}
+
 
 
 
