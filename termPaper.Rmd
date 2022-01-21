@@ -10,6 +10,7 @@ output:
   html_document:
     df_print: paged
 header-includes: \usepackage{amsmath} \usepackage{color} \usepackage[english]{babel} \usepackage{graphicx} \usepackage{filecontents} \usepackage{natbib} \usepackage{url} \usepackage[nottoc]{tocbibind}
+
 ---
 
 
@@ -20,11 +21,34 @@ header-includes: \usepackage{amsmath} \usepackage{color} \usepackage[english]{ba
 \maketitle
 
 \section{Introduction}
-  Recommendation Systems are becoming more and more popular. Using a good recommendation system has become an essential part of most businesses. More and more companies are using their own version of recommendation systems. Big companies like Netflix, Youtube, Amazon, Airbnb, Facebook all have their recommendation systems. People are becoming more platform dependent, we want the application to tell us what we want. A Netflix user is satisfied because the recommendation they get for movies and shows are more personalized for their need. Amazon sells more product when they show products that a person would like to buy. Ads are more likely to generate revenue when the ads are relevant. \cite{RecommendationSystems}
+Recommendation Systems are becoming more and more popular. Using a good recommendation system has become an essential part of most businesses. More and more companies are using their own version of recommendation systems. Big companies like Netflix, Youtube, Amazon, Airbnb, Facebook all have their recommendation systems. People are becoming more platform dependent, we want the application to tell us what we want. A Netflix user is satisfied because the recommendation they get for movies and shows are more personalized for their need. Amazon sells more product when they show products that a person would like to buy. Ads are more likely to generate revenue when the ads are relevant. \cite{RecommendationSystems}
 \
 In this study, we would learn different recommendation systems and how they function. We aim to develop our own recommendation systems using Deep Learning and Machine Learning methods.
 
-
+\section{Types of Recommendation Systems}
+\subsection{Popularity Based Recommendation Systems:}
+  This recommendation system works on the basis of trends and popularity. The goal of this recommendation system is to recommend what is trending among the targetted group of users. This recommendation system does not need the historical data from the users. This recommendation system has its own advantages because there's no need for the historical dataset. The recommendation system doesn't suffer from a well known problem of most recommendation systems, known as "Cold Start Problem". 
+   \hfill \break
+  We can possibly use this recommendation system when we do not have any data from the user and also have this as a "Popularity Section" for every user so they can easily find what's popular in their preffered genre.\cite{TypesOfRecommendationSystems}
+    \begin{figure}
+  \centering
+    \includegraphics[width=0.5\textwidth]{~/RecommendationSystem/images/popularityBasedRecommendationSystems.png}
+    \caption{Architecture of the Popularity-based Recommender System \cite{inproceedings}}
+\end{figure}
+\subsection{Classification Model:}
+  This recommendation system uses features of both the product and the user to predict whether the recommendation will be liked/disliked by the given user. This model employees a classifer based on certain rules to perform the prediction. \cite{TypesOfRecommendationSystems}
+     \begin{figure}
+  \centering
+    \includegraphics[width=0.5\textwidth]{~/RecommendationSystem/images/classificationModel.png}
+    \caption{Classification Model Recommender System \cite{TypesOfRecommendationSystems}}
+\end{figure}
+\subsection{Conent-Based Recommendation Systems}
+     This recommendation system also uses content/product features to determine the recommendations. This recommendation system does not employee the historical data of the user. There are multiple methods that are used to determine the recommendations. We usually use Euclidean distance between the contents to find the nearest recommenations that a user may like. There are also other methods that can be used such as using a pearson correlation coffecient, and recommend the content/product if they're closely correlated. We would get more in depth overview of these recommendation systems in this study. \cite{TypesOfRecommendationSystems}
+      \begin{figure}
+  \centering
+    \includegraphics[width=0.4\textwidth]{~/RecommendationSystem/images/contentBasedRecommendation.jpeg}
+    \caption{Content-Based Recommender System \cite{ContentBasedRecommendation}}
+\end{figure}
 \clearpage
 
 \bibliographystyle{unsrt}
