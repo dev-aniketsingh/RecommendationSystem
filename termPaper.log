@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2022.1.20)  20 JAN 2022 19:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2022.1.20)  21 JAN 2022 12:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -526,7 +526,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 {/Users/aniketsingh/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.ma
 p}]
-<~/RecommendationSystem/images/popularityBasedRecommendationSystems.png, id=45,
+<~/RecommendationSystem/images/popularityBasedRecommendationSystems.png, id=55,
  853.1875pt x 474.77374pt>
 File: ~/RecommendationSystem/images/popularityBasedRecommendationSystems.png Gr
 aphic file (type png)
@@ -536,7 +536,7 @@ ationSystems.png  used on input line 113.
 (pdftex.def)             Requested size: 234.88115pt x 130.70444pt.
 [2 </Users/aniketsingh/RecommendationSystem/images/popularityBasedRecommendatio
 nSystems.png>]
-<~/RecommendationSystem/images/classificationModel.png, id=58, 647.41875pt x 19
+<~/RecommendationSystem/images/classificationModel.png, id=68, 647.41875pt x 19
 5.73125pt>
 File: ~/RecommendationSystem/images/classificationModel.png Graphic file (type 
 png)
@@ -544,7 +544,7 @@ png)
 Package pdftex.def Info: ~/RecommendationSystem/images/classificationModel.png 
  used on input line 125.
 (pdftex.def)             Requested size: 234.87839pt x 71.00974pt.
-<~/RecommendationSystem/images/contentBasedRecommendation.jpeg, id=61, 794.97pt
+<~/RecommendationSystem/images/contentBasedRecommendation.jpeg, id=71, 794.97pt
  x 1009.7725pt>
 File: ~/RecommendationSystem/images/contentBasedRecommendation.jpeg Graphic fil
 e (type jpg)
@@ -553,31 +553,46 @@ Package pdftex.def Info: ~/RecommendationSystem/images/contentBasedRecommendati
 on.jpeg  used on input line 143.
 (pdftex.def)             Requested size: 187.89757pt x 238.66786pt.
 [3 </Users/aniketsingh/RecommendationSystem/images/classificationModel.png> </U
-sers/aniketsingh/RecommendationSystem/images/contentBasedRecommendation.jpeg>] 
-(./termPaper.bbl) [4
+sers/aniketsingh/RecommendationSystem/images/contentBasedRecommendation.jpeg>]
+<~/RecommendationSystem/images/collaborative.png, id=81, 1841.88126pt x 1035.87
+pt>
+File: ~/RecommendationSystem/images/collaborative.png Graphic file (type png)
+<use ~/RecommendationSystem/images/collaborative.png>
+Package pdftex.def Info: ~/RecommendationSystem/images/collaborative.png  used 
+on input line 159.
+(pdftex.def)             Requested size: 281.83502pt x 158.50339pt.
+<~/RecommendationSystem/images/hybrid.png, id=84, 607.26875pt x 252.945pt>
+File: ~/RecommendationSystem/images/hybrid.png Graphic file (type png)
+<use ~/RecommendationSystem/images/hybrid.png>
+Package pdftex.def Info: ~/RecommendationSystem/images/hybrid.png  used on inpu
+t line 178.
+(pdftex.def)             Requested size: 234.86943pt x 97.82991pt.
+[4 </Users/aniketsingh/RecommendationSystem/images/collaborative.png (PNG copy)
+> </Users/aniketsingh/RecommendationSystem/images/hybrid.png>] (./termPaper.bbl
+) [5
 
 ] (./termPaper.aux)
 Package rerunfilecheck Info: File `termPaper.out' has not changed.
-(rerunfilecheck)             Checksum: F17B4C776497C33FC69102E8300EAC5C;1076.
+(rerunfilecheck)             Checksum: FBA6CDF3BE6D67BB8CA0608F7B7B18DF;1564.
  ) 
 Here is how much of TeX's memory you used:
- 11915 strings out of 480246
- 189576 string characters out of 5894778
- 485185 words of memory out of 5000000
- 29640 multiletter control sequences out of 15000+600000
+ 11944 strings out of 480246
+ 190387 string characters out of 5894778
+ 485215 words of memory out of 5000000
+ 29660 multiletter control sequences out of 15000+600000
  519150 words of font info for 68 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 60i,6n,63p,308b,340s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,6n,63p,338b,340s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/Users/aniketsingh/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}<
 /Users/aniketsingh/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx12.pfb>
 </Users/aniketsingh/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr12.pfb>
 </Users/aniketsingh/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr17.pfb>
 </Users/aniketsingh/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri12.pfb
 >
-Output written on termPaper.pdf (4 pages, 252125 bytes).
+Output written on termPaper.pdf (5 pages, 388521 bytes).
 PDF statistics:
- 101 PDF objects out of 1000 (max. 8388607)
- 82 compressed objects within 1 object stream
- 19 named destinations out of 1000 (max. 500000)
- 64 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 127 PDF objects out of 1000 (max. 8388607)
+ 104 compressed objects within 2 object streams
+ 26 named destinations out of 1000 (max. 500000)
+ 90 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -26,7 +26,7 @@ Recommendation Systems are becoming more and more popular. Using a good recommen
 In this study, we would learn different recommendation systems and how they function. We aim to develop our own recommendation systems using Deep Learning and Machine Learning methods.
 
 \section{Types of Recommendation Systems}
-\subsection{Popularity Based Recommendation Systems:}
+\subsection{Popularity Based Recommendation Systems}
   This recommendation system works on the basis of trends and popularity. The goal of this recommendation system is to recommend what is trending among the targetted group of users. This recommendation system does not need the historical data from the users. This recommendation system has its own advantages because there's no need for the historical dataset. The recommendation system doesn't suffer from a well known problem of most recommendation systems, known as "Cold Start Problem". 
    \hfill \break
   We can possibly use this recommendation system when we do not have any data from the user and also have this as a "Popularity Section" for every user so they can easily find what's popular in their preffered genre.\cite{TypesOfRecommendationSystems}
@@ -35,7 +35,7 @@ In this study, we would learn different recommendation systems and how they func
     \includegraphics[width=0.5\textwidth]{~/RecommendationSystem/images/popularityBasedRecommendationSystems.png}
     \caption{Architecture of the Popularity-based Recommender System \cite{inproceedings}}
 \end{figure}
-\subsection{Classification Model:}
+\subsection{Classification Model}
   This recommendation system uses features of both the product and the user to predict whether the recommendation will be liked/disliked by the given user. This model employees a classifer based on certain rules to perform the prediction. \cite{TypesOfRecommendationSystems}
      \begin{figure}
   \centering
@@ -47,7 +47,21 @@ In this study, we would learn different recommendation systems and how they func
       \begin{figure}
   \centering
     \includegraphics[width=0.4\textwidth]{~/RecommendationSystem/images/contentBasedRecommendation.jpeg}
-    \caption{Content-Based Recommender System \cite{ContentBasedRecommendation}}
+    \caption{Content-Based Recommendations System \cite{ContentBasedRecommendation}}
+\end{figure}
+\subsection{Collaborative Filtering Recommendation Systems}
+This type of recommendations systems are widely used and considered to be the intelligent recommendation system. Collaborative filtering uses historical data of the users. Collaborative filtering finds similarties between users and makes prediction for better recommendations. Collaborative filtering requires data, and having more data makes the prediction better, which results in better recommendations. We have many methods for collaborative filtering that we will be doing futher study in this paper. \cite{TypesOfRecommendationSystems}
+  \begin{figure}
+  \centering
+    \includegraphics[width=0.6\textwidth]{~/RecommendationSystem/images/collaborative.png}
+    \caption{Collaborative Filtering Recommendation System \cite{Collaborative}}
+\end{figure}
+\subsection{Hybrid Recommendation Systems}
+This type of recommendation systems uses both Content-based filtering and Collaborative filtering algorithms. These recommendation systems can produce better recommendations as they have both historical data and also using the contents to provide users with the recommendations. We can expect more accurate recommendations even with less data and we may be able to overcome cold start problems. A hybrid recommendation systems may also use other recommendation systems algorithms to provide us with more accurate results. We will be doing more in-depth study of hybrid recommendations system in this paper. We will be also comparing performance of a conventional recommendations system with some hybrid recommendations systems. \cite{Hybrid}
+ \begin{figure}
+  \centering
+    \includegraphics[width=0.5\textwidth]{~/RecommendationSystem/images/hybrid.png}
+    \caption{Hybrid Recommendation System \cite{Hybrid}}
 \end{figure}
 \clearpage
 
