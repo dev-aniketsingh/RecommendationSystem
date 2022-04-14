@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2022.1.20)  23 JAN 2022 21:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2022.1.20)  1 FEB 2022 17:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -589,7 +589,7 @@ Here is how much of TeX's memory you used:
 </Users/aniketsingh/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr17.pfb>
 </Users/aniketsingh/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri12.pfb
 >
-Output written on termPaper.pdf (6 pages, 391018 bytes).
+Output written on termPaper.pdf (6 pages, 391022 bytes).
 PDF statistics:
  143 PDF objects out of 1000 (max. 8388607)
  119 compressed objects within 2 object streams
