@@ -9,7 +9,7 @@ output:
   pdf_document: default
   html_document:
     df_print: paged
-header-includes: \usepackage{amsmath} \usepackage{color} \usepackage[english]{babel} \usepackage{graphicx} \usepackage{filecontents} \usepackage{natbib} \usepackage{url} \usepackage[nottoc]{tocbibind}
+header-includes: \usepackage{amsmath} \usepackage{color} \usepackage[english]{babel} \usepackage{graphicx} \usepackage{filecontents} \usepackage{natbib} \usepackage{url} \usepackage[nottoc]{tocbibind} 
 
 ---
 
@@ -68,13 +68,50 @@ This type of recommendation systems uses both Content-based filtering and Collab
 One of the major problem that we encounter while working with recommendation systems are the Cold Start Problem. In this study, we have mentioned "Cold Start Problem" several times, but what is a cold start problem? Let's understand why it is a problem and how we resolve these issues.  
 Cold Start Problems occur when there is no/less data available realted to user or the product. As we know most recommendation systems are dependent on hisotrical data about the user or product and sometimes both. So not having data/information available, would be an issue and we can't make expect our recommendation system to produce meaningful recommendations. 
 There are multiple mitigation techniques that can be used to resolve this issue and expect better recommendations in such cases. We will be using those techniques to resolve any cold start problems. To learn more about Cold Star Problem and it's mitigation techniques, see \cite{ColdStartProblem}
+\section {Models to build Recommendation Systems} 
+\subsection{Matrix Factorization Model} 
+The matrix factorization model factorizes the rating matrix into the product of two lower-rank matrix.
+Matrix facotization is one of the most reiable model to build a recommendation system.
+\
+Let $\mathbb{R} \in \mathbb{R}^{p \times q}$ denote the interation matrix with 'p' number of users and 'q' number of products. Then the user-item matrix will be factorized into a user latent matrix $\textbf{A} \in \mathbb{R}^{p \times k}$ and a product latent matrix $\textbf{B} \in \mathbb{R}^{q \times k}$ where  k < p, k < q.
+\
+Here, \textbf{k} denotes the latent factor size. Let $a_4$ denote the 4$^{\text{th}}$ row of \textbf{A} and $b_i$ denote the i$^{\text{th}}$ row of \textbf{B}.
+\
+Now, we estimate the predicted ratings by 
+\
 
+$\hat{\mathbb{R}} = AB^T$
+
+\
+Where $\hat{\mathbb{R}}\in \mathbb{R}^{p \times q}$ is the matrix that represents predicted ratings. We can calculate the predicted ratings of a product given by user u by a product. 
+\
+
+$\hat{\mathbb{R}} = {a_4b_i}^T + c_4 + c_i$
+
+\
+Now, we train our model by minimizing the objective fucntion given below. 
+
+\
+  $\underset{A,B,C}{\arg\max} \sum_{(u,i) \in k} \|\mathbb{R}_{ui} - \hat{\mathbb{R}}_{ui}\| + \beta({\|A\|_F}^2 +{\|B\|_F}^2 + {C_u}^2 + {C_i}^2)$
+  
+\
+Where $\beta$ is the rate of regularization. 
+$\beta({\|A\|_F}^2 +{\|B\|_F}^2 + {C_u}^2 + {C_i}^2)$ is term that avoids overfitting of data. 
+\
+We use Root Mean Square Error (RMSE) to evaluate the matrix factorization model. 
+\
+RMSE is calculated by 
+\
+
+ $RMSE = \sqrt{\frac{1}{|T|}\sum_{ui \in T}({\mathbb{R}}_{ui} - \hat{\mathbb{R}}_{ui} )^2}$
+
+\
+Here, T is the set of pairs of users and products evaluated.
 
 \clearpage
 
 \bibliographystyle{unsrt}
 \bibliography{one}
-
 
 
 
