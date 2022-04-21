@@ -75,7 +75,7 @@ Matrix facotization is one of the most reiable model to build a recommendation s
 \
 Let $\mathbb{R} \in \mathbb{R}^{p \times q}$ denote the interation matrix with 'p' number of users and 'q' number of products. Then the user-item matrix will be factorized into a user latent matrix $\textbf{A} \in \mathbb{R}^{p \times k}$ and a product latent matrix $\textbf{B} \in \mathbb{R}^{q \times k}$ where  k < p, k < q.
 \
-Here, \textbf{k} denotes the latent factor size. Let $a_4$ denote the 4$^{\text{th}}$ row of \textbf{A} and $b_i$ denote the i$^{\text{th}}$ row of \textbf{B}.
+Here, \textbf{k} denotes the latent factor size. Let $a_u$ denote the u$^{\text{th}}$ row of \textbf{A} and $b_i$ denote the i$^{\text{th}}$ row of \textbf{B}.
 \
 Now, we estimate the predicted ratings by 
 \
@@ -86,7 +86,7 @@ $\hat{\mathbb{R}} = AB^T$
 Where $\hat{\mathbb{R}}\in \mathbb{R}^{p \times q}$ is the matrix that represents predicted ratings. We can calculate the predicted ratings of a product given by user u by a product. 
 \
 
-$\hat{\mathbb{R}} = {a_4b_i}^T + c_4 + c_i$
+$\hat{\mathbb{R}} = {a_ub_i}^T + c_u + c_i$
 
 \
 Now, we train our model by minimizing the objective fucntion given below. 
