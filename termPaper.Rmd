@@ -1,5 +1,5 @@
 ---
-title: "Recommendation Systems "
+title: "Recommendation Systems"
 date: "`r format(Sys.time(), '%B %e, %Y')`"
 fontsize: 12pt
 bibliography: ["one.bib"]
@@ -19,7 +19,9 @@ header-includes: \usepackage{amsmath} \usepackage{color} \usepackage[english]{ba
 
 \newpage
 \maketitle
-
+\section{Abstract}
+Recommendation System have become a part of our life, we see them everywhere without realizing that a recommendation algorithm is being used behind them. We get recommendations while watching videos, buying any product, reading news on websites, booking flights/hotels. All of these are possible with Recommendation Systems. We are using Matrix Factorization method to implement our recommendations system. We used both user and item based recommendation systems. 
+\clearpage
 \section{Introduction}
 Recommendation Systems are becoming more and more popular. Using a good recommendation system has become an essential part of most businesses. More and more companies are using their own version of recommendation systems. Big companies like Netflix, Youtube, Amazon, Airbnb, Facebook all have their recommendation systems. People are becoming more platform dependent, we want the application to tell us what we want. A Netflix user is satisfied because the recommendation they get for movies and shows are more personalized for their need. Amazon sells more product when they show products that a person would like to buy. Ads are more likely to generate revenue when the ads are relevant. \cite{RecommendationSystems}
 \
@@ -68,7 +70,7 @@ This type of recommendation systems uses both Content-based filtering and Collab
 One of the major problem that we encounter while working with recommendation systems are the Cold Start Problem. In this study, we have mentioned "Cold Start Problem" several times, but what is a cold start problem? Let's understand why it is a problem and how we resolve these issues.  
 Cold Start Problems occur when there is no/less data available realted to user or the product. As we know most recommendation systems are dependent on hisotrical data about the user or product and sometimes both. So not having data/information available, would be an issue and we can't make expect our recommendation system to produce meaningful recommendations. 
 There are multiple mitigation techniques that can be used to resolve this issue and expect better recommendations in such cases. We will be using those techniques to resolve any cold start problems. To learn more about Cold Star Problem and it's mitigation techniques, see \cite{ColdStartProblem}
-\section {Models to build Recommendation Systems} 
+\section {Models for  Recommendation Systems} 
 \subsection{Matrix Factorization Model} 
 The matrix factorization model factorizes the rating matrix into the product of two lower-rank matrix.
 Matrix facotization is one of the most reiable model to build a recommendation system.
@@ -106,7 +108,41 @@ RMSE is calculated by
  $RMSE = \sqrt{\frac{1}{|T|}\sum_{ui \in T}({\mathbb{R}}_{ui} - \hat{\mathbb{R}}_{ui} )^2}$
 
 \
-Here, T is the set of pairs of users and products evaluated.
+Here, T is the set of pairs of users and products evaluated. \cite{RecommendationSystem}
+
+\section{Product Recommendation System}
+For this study, we implemented a product recommendation system using Collaborative Filtering, Matrix Factorization. We have a dataset of Online Retail with 531285 rows and 8 columns. Our features include Invoice number, Stock Code, Description, Quanity, Date, Unit Price, CustomerID, and Country. 
+
+\subsection{Data Preparation}
+In our dataset, we first converted Date to time series datatime format. After conversion, we created new variable of datetime into Day, Month, and Year to perform better analysis. 
+As our dataset had most sales from UK. 
+\
+\
+\includegraphics{~/RecommendationSystem/images/country.png}
+\
+We then created two seperate datasets with UK-only and Non-Uk sales. We can see that now we have a better insight of sales from other countries in the plot below.
+\
+\includegraphics{~/RecommendationSystem/images/nonUk.png}
+\
+As the dataset didn't have any missing values, we didn't need to do anything about them. 
+\
+\
+We then created matrix for dataset to use Matrix Facotrization. As we used Python for this implementation, python allows us to create matrix using pivot table function. We first created a customer item matrix. Also, we created user-to-user similarity matrix using Python's cosine similarity function and pandas. 
+
+\subsection{Model Results}
+We first used item based Collaborative Filtering using Sklearn. We used items bought by user A and items bought by user B, to find out what new items should be recommended to user B. Using Matrix Factorization, we succesfully created new list of items that would be recommended to user B based on items bought by user A and B. 
+We also used User based Collaborative Filtering using Sklearn. We used similar approach but with users A and user B. In this case we used user's information to create new recommendations for different user. This also used a similar approach to produce new recommendations. 
+Here are new recommendations we got from our result. 
+\
+\includegraphics[width=0.4\textwidth]{~/RecommendationSystem/images/recommendations.png}
+
+\subsection{Model Strength}
+Our model uses both items and users both to create new recommendations for a new user. The model uses collaborative filtering method. Our model succesfully predicts recommendations using only user and items. 
+\subsection{Model Weakness}
+Model doesn't include ratings because of lack of ratings in the dataset.
+\subsection{Future Work}
+Using a better dataset which includes  user ratings would perform better with Matrix Factorization. Using newer deep learning algorithms such as AutoRec, Personalized Ranking Recommendation Systems, Neural Collaborative Fiktering Recommendation systems. 
+
 
 \clearpage
 

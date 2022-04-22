@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.21)  21 APR 2022 19:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.21)  22 APR 2022 00:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -445,79 +445,108 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 73.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (./termPaper.toc
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 4.
+(Font)              <12> on input line 5.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 4.
+(Font)              <8> on input line 5.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 4.
+(Font)              <6> on input line 5.
 )
 \tf@toc=\write4
 \openout4 = `termPaper.toc'.
 
 [1
 
-{/Users/aniketsingh/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<~/RecommendationSystem/images/popularityBasedRecommendationSystems.png, id=75, 853.1875pt x 474.77374pt>
+{/Users/aniketsingh/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+<~/RecommendationSystem/images/popularityBasedRecommendationSystems.png, id=114, 853.1875pt x 474.77374pt>
 File: ~/RecommendationSystem/images/popularityBasedRecommendationSystems.png Graphic file (type png)
 <use ~/RecommendationSystem/images/popularityBasedRecommendationSystems.png>
-Package pdftex.def Info: ~/RecommendationSystem/images/popularityBasedRecommendationSystems.png  used on input line 113.
+Package pdftex.def Info: ~/RecommendationSystem/images/popularityBasedRecommendationSystems.png  used on input line 122.
 (pdftex.def)             Requested size: 234.88115pt x 130.70444pt.
-[2 </Users/aniketsingh/RecommendationSystem/images/popularityBasedRecommendationSystems.png>]
-<~/RecommendationSystem/images/classificationModel.png, id=88, 647.41875pt x 195.73125pt>
+[3
+
+ </Users/aniketsingh/RecommendationSystem/images/popularityBasedRecommendationSystems.png>]
+<~/RecommendationSystem/images/classificationModel.png, id=127, 647.41875pt x 195.73125pt>
 File: ~/RecommendationSystem/images/classificationModel.png Graphic file (type png)
 <use ~/RecommendationSystem/images/classificationModel.png>
-Package pdftex.def Info: ~/RecommendationSystem/images/classificationModel.png  used on input line 125.
+Package pdftex.def Info: ~/RecommendationSystem/images/classificationModel.png  used on input line 134.
 (pdftex.def)             Requested size: 234.87839pt x 71.00974pt.
-<~/RecommendationSystem/images/contentBasedRecommendation.jpeg, id=91, 794.97pt x 1009.7725pt>
+<~/RecommendationSystem/images/contentBasedRecommendation.jpeg, id=130, 794.97pt x 1009.7725pt>
 File: ~/RecommendationSystem/images/contentBasedRecommendation.jpeg Graphic file (type jpg)
 <use ~/RecommendationSystem/images/contentBasedRecommendation.jpeg>
-Package pdftex.def Info: ~/RecommendationSystem/images/contentBasedRecommendation.jpeg  used on input line 143.
+Package pdftex.def Info: ~/RecommendationSystem/images/contentBasedRecommendation.jpeg  used on input line 152.
 (pdftex.def)             Requested size: 187.89757pt x 238.66786pt.
-[3 </Users/aniketsingh/RecommendationSystem/images/classificationModel.png> </Users/aniketsingh/RecommendationSystem/images/contentBasedRecommendation.jpeg>]
-<~/RecommendationSystem/images/collaborative.png, id=101, 1841.88126pt x 1035.87pt>
+[4 </Users/aniketsingh/RecommendationSystem/images/classificationModel.png> </Users/aniketsingh/RecommendationSystem/images/contentBasedRecommendation.jpeg>]
+<~/RecommendationSystem/images/collaborative.png, id=140, 1841.88126pt x 1035.87pt>
 File: ~/RecommendationSystem/images/collaborative.png Graphic file (type png)
 <use ~/RecommendationSystem/images/collaborative.png>
-Package pdftex.def Info: ~/RecommendationSystem/images/collaborative.png  used on input line 159.
+Package pdftex.def Info: ~/RecommendationSystem/images/collaborative.png  used on input line 168.
 (pdftex.def)             Requested size: 281.83502pt x 158.50339pt.
-<~/RecommendationSystem/images/hybrid.png, id=104, 607.26875pt x 252.945pt>
+<~/RecommendationSystem/images/hybrid.png, id=143, 607.26875pt x 252.945pt>
 File: ~/RecommendationSystem/images/hybrid.png Graphic file (type png)
 <use ~/RecommendationSystem/images/hybrid.png>
-Package pdftex.def Info: ~/RecommendationSystem/images/hybrid.png  used on input line 178.
+Package pdftex.def Info: ~/RecommendationSystem/images/hybrid.png  used on input line 187.
 (pdftex.def)             Requested size: 234.86943pt x 97.82991pt.
-[4 </Users/aniketsingh/RecommendationSystem/images/collaborative.png (PNG copy)> </Users/aniketsingh/RecommendationSystem/images/hybrid.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 203--216
+[5 </Users/aniketsingh/RecommendationSystem/images/collaborative.png (PNG copy)> </Users/aniketsingh/RecommendationSystem/images/hybrid.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 212--225
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 219--223
+Underfull \hbox (badness 10000) in paragraph at lines 228--232
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 233--240
+Underfull \hbox (badness 10000) in paragraph at lines 242--249
 
  []
 
-[5] [6] (./termPaper.bbl) [7
+[6]
+<~/RecommendationSystem/images/country.png, id=170, 1674.255pt x 450.68375pt>
+File: ~/RecommendationSystem/images/country.png Graphic file (type png)
+<use ~/RecommendationSystem/images/country.png>
+Package pdftex.def Info: ~/RecommendationSystem/images/country.png  used on input line 271.
+(pdftex.def)             Requested size: 469.73344pt x 126.44502pt.
+<~/RecommendationSystem/images/nonUk.png, id=171, 1680.2775pt x 450.68375pt>
+File: ~/RecommendationSystem/images/nonUk.png Graphic file (type png)
+<use ~/RecommendationSystem/images/nonUk.png>
+Package pdftex.def Info: ~/RecommendationSystem/images/nonUk.png  used on input line 275.
+(pdftex.def)             Requested size: 469.7566pt x 125.99803pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 266--284
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 266--284
+
+ []
+
+[7 </Users/aniketsingh/RecommendationSystem/images/country.png>]
+<~/RecommendationSystem/images/recommendations.png, id=179, 317.185pt x 337.26pt>
+File: ~/RecommendationSystem/images/recommendations.png Graphic file (type png)
+<use ~/RecommendationSystem/images/recommendations.png>
+Package pdftex.def Info: ~/RecommendationSystem/images/recommendations.png  used on input line 297.
+(pdftex.def)             Requested size: 187.9022pt x 199.79477pt.
+[8 </Users/aniketsingh/RecommendationSystem/images/nonUk.png> </Users/aniketsingh/RecommendationSystem/images/recommendations.png>] [9] (./termPaper.bbl) [10
 
 ] (./termPaper.aux)
 Package rerunfilecheck Info: File `termPaper.out' has not changed.
-(rerunfilecheck)             Checksum: 15E1CF513186573EE153227520B9A5D9;2391.
+(rerunfilecheck)             Checksum: 2BE9202B00F33B5069FD7CD6DC4DA828;3287.
  ) 
 Here is how much of TeX's memory you used:
- 11945 strings out of 480193
- 190653 string characters out of 5891889
- 488045 words of memory out of 5000000
- 29699 multiletter control sequences out of 15000+600000
+ 11991 strings out of 480193
+ 191901 string characters out of 5891889
+ 490065 words of memory out of 5000000
+ 29731 multiletter control sequences out of 15000+600000
  531116 words of font info for 72 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  60i,6n,63p,338b,339s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/Users/aniketsingh/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/Users/aniketsingh/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/Users/aniketsingh/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/Users/aniketsingh/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/Users/aniketsingh/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}</Users/aniketsingh/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></Users/aniketsingh/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmex10.pfb></Users/aniketsingh/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></Users/aniketsingh/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></Users/aniketsingh/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr12.pfb></Users/aniketsingh/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr17.pfb></Users/aniketsingh/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr8.pfb></Users/aniketsingh/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri12.pfb></Users/aniketsingh/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></Users/aniketsingh/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></Users/aniketsingh/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on termPaper.pdf (7 pages, 448136 bytes).
+Output written on termPaper.pdf (10 pages, 713709 bytes).
 PDF statistics:
- 205 PDF objects out of 1000 (max. 8388607)
- 164 compressed objects within 2 object streams
- 33 named destinations out of 1000 (max. 500000)
- 122 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 265 PDF objects out of 1000 (max. 8388607)
+ 214 compressed objects within 3 object streams
+ 44 named destinations out of 1000 (max. 500000)
+ 193 words of extra memory for PDF output out of 10000 (max. 10000000)
 
