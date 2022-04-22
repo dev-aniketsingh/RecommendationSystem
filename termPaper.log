@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.21)  22 APR 2022 00:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.21)  22 APR 2022 00:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -333,24 +333,24 @@ File: l3backend-pdftex.def 2022-04-20 L3 backend support: PDF output (pdfTeX)
 ) (./termPaper.aux)
 \openout1 = `termPaper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 71.
-LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
 (/Users/aniketsingh/Library/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 (/Users/aniketsingh/Library/TinyTeX/texmf-dist/tex/latex/grfext/grfext.sty
@@ -363,7 +363,7 @@ Package grfext Info: Graphics extension search list:
 (/Users/aniketsingh/Library/TinyTeX/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 71.
+Package hyperref Info: Link coloring OFF on input line 72.
 (/Users/aniketsingh/Library/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 (/Users/aniketsingh/Library/TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty
@@ -373,9 +373,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count288
 )
-LaTeX Info: Redefining \ref on input line 71.
-LaTeX Info: Redefining \pageref on input line 71.
-LaTeX Info: Redefining \nameref on input line 71.
+LaTeX Info: Redefining \ref on input line 72.
+LaTeX Info: Redefining \pageref on input line 72.
+LaTeX Info: Redefining \nameref on input line 72.
 (./termPaper.out) (./termPaper.out)
 \@outlinefile=\write3
 \openout3 = `termPaper.out'.
@@ -414,33 +414,33 @@ LaTeX Info: Redefining \nameref on input line 71.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 73.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 74.
 (/Users/aniketsingh/Library/TinyTeX/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 73.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 74.
 (/Users/aniketsingh/Library/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 73.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 74.
 (/Users/aniketsingh/Library/TinyTeX/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 73.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 74.
 (/Users/aniketsingh/Library/TinyTeX/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 73.
+(Font)              <14.4> on input line 74.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 73.
+(Font)              <10> on input line 74.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 73.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 73.
+(Font)              <7> on input line 74.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 74.
 (/Users/aniketsingh/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 73.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 74.
 (/Users/aniketsingh/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (./termPaper.toc
@@ -460,7 +460,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 <~/RecommendationSystem/images/popularityBasedRecommendationSystems.png, id=114, 853.1875pt x 474.77374pt>
 File: ~/RecommendationSystem/images/popularityBasedRecommendationSystems.png Graphic file (type png)
 <use ~/RecommendationSystem/images/popularityBasedRecommendationSystems.png>
-Package pdftex.def Info: ~/RecommendationSystem/images/popularityBasedRecommendationSystems.png  used on input line 122.
+Package pdftex.def Info: ~/RecommendationSystem/images/popularityBasedRecommendationSystems.png  used on input line 123.
 (pdftex.def)             Requested size: 234.88115pt x 130.70444pt.
 [3
 
@@ -468,36 +468,36 @@ Package pdftex.def Info: ~/RecommendationSystem/images/popularityBasedRecommenda
 <~/RecommendationSystem/images/classificationModel.png, id=127, 647.41875pt x 195.73125pt>
 File: ~/RecommendationSystem/images/classificationModel.png Graphic file (type png)
 <use ~/RecommendationSystem/images/classificationModel.png>
-Package pdftex.def Info: ~/RecommendationSystem/images/classificationModel.png  used on input line 134.
+Package pdftex.def Info: ~/RecommendationSystem/images/classificationModel.png  used on input line 135.
 (pdftex.def)             Requested size: 234.87839pt x 71.00974pt.
 <~/RecommendationSystem/images/contentBasedRecommendation.jpeg, id=130, 794.97pt x 1009.7725pt>
 File: ~/RecommendationSystem/images/contentBasedRecommendation.jpeg Graphic file (type jpg)
 <use ~/RecommendationSystem/images/contentBasedRecommendation.jpeg>
-Package pdftex.def Info: ~/RecommendationSystem/images/contentBasedRecommendation.jpeg  used on input line 152.
+Package pdftex.def Info: ~/RecommendationSystem/images/contentBasedRecommendation.jpeg  used on input line 153.
 (pdftex.def)             Requested size: 187.89757pt x 238.66786pt.
 [4 </Users/aniketsingh/RecommendationSystem/images/classificationModel.png> </Users/aniketsingh/RecommendationSystem/images/contentBasedRecommendation.jpeg>]
 <~/RecommendationSystem/images/collaborative.png, id=140, 1841.88126pt x 1035.87pt>
 File: ~/RecommendationSystem/images/collaborative.png Graphic file (type png)
 <use ~/RecommendationSystem/images/collaborative.png>
-Package pdftex.def Info: ~/RecommendationSystem/images/collaborative.png  used on input line 168.
+Package pdftex.def Info: ~/RecommendationSystem/images/collaborative.png  used on input line 169.
 (pdftex.def)             Requested size: 281.83502pt x 158.50339pt.
 <~/RecommendationSystem/images/hybrid.png, id=143, 607.26875pt x 252.945pt>
 File: ~/RecommendationSystem/images/hybrid.png Graphic file (type png)
 <use ~/RecommendationSystem/images/hybrid.png>
-Package pdftex.def Info: ~/RecommendationSystem/images/hybrid.png  used on input line 187.
+Package pdftex.def Info: ~/RecommendationSystem/images/hybrid.png  used on input line 188.
 (pdftex.def)             Requested size: 234.86943pt x 97.82991pt.
 [5 </Users/aniketsingh/RecommendationSystem/images/collaborative.png (PNG copy)> </Users/aniketsingh/RecommendationSystem/images/hybrid.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 212--225
+Underfull \hbox (badness 10000) in paragraph at lines 213--226
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 228--232
+Underfull \hbox (badness 10000) in paragraph at lines 229--233
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--249
+Underfull \hbox (badness 10000) in paragraph at lines 243--250
 
  []
 
@@ -505,20 +505,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 242--249
 <~/RecommendationSystem/images/country.png, id=170, 1674.255pt x 450.68375pt>
 File: ~/RecommendationSystem/images/country.png Graphic file (type png)
 <use ~/RecommendationSystem/images/country.png>
-Package pdftex.def Info: ~/RecommendationSystem/images/country.png  used on input line 271.
+Package pdftex.def Info: ~/RecommendationSystem/images/country.png  used on input line 272.
 (pdftex.def)             Requested size: 469.73344pt x 126.44502pt.
 <~/RecommendationSystem/images/nonUk.png, id=171, 1680.2775pt x 450.68375pt>
 File: ~/RecommendationSystem/images/nonUk.png Graphic file (type png)
 <use ~/RecommendationSystem/images/nonUk.png>
-Package pdftex.def Info: ~/RecommendationSystem/images/nonUk.png  used on input line 275.
+Package pdftex.def Info: ~/RecommendationSystem/images/nonUk.png  used on input line 276.
 (pdftex.def)             Requested size: 469.7566pt x 125.99803pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--284
+Underfull \hbox (badness 10000) in paragraph at lines 267--285
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--284
+Underfull \hbox (badness 10000) in paragraph at lines 267--285
 
  []
 
@@ -526,7 +526,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 266--284
 <~/RecommendationSystem/images/recommendations.png, id=179, 317.185pt x 337.26pt>
 File: ~/RecommendationSystem/images/recommendations.png Graphic file (type png)
 <use ~/RecommendationSystem/images/recommendations.png>
-Package pdftex.def Info: ~/RecommendationSystem/images/recommendations.png  used on input line 297.
+Package pdftex.def Info: ~/RecommendationSystem/images/recommendations.png  used on input line 298.
 (pdftex.def)             Requested size: 187.9022pt x 199.79477pt.
 [8 </Users/aniketsingh/RecommendationSystem/images/nonUk.png> </Users/aniketsingh/RecommendationSystem/images/recommendations.png>] [9] (./termPaper.bbl) [10
 
@@ -537,13 +537,13 @@ Package rerunfilecheck Info: File `termPaper.out' has not changed.
 Here is how much of TeX's memory you used:
  11991 strings out of 480193
  191901 string characters out of 5891889
- 490065 words of memory out of 5000000
+ 490156 words of memory out of 5000000
  29731 multiletter control sequences out of 15000+600000
  531116 words of font info for 72 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  60i,6n,63p,338b,339s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/Users/aniketsingh/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/Users/aniketsingh/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/Users/aniketsingh/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/Users/aniketsingh/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/Users/aniketsingh/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}</Users/aniketsingh/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></Users/aniketsingh/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmex10.pfb></Users/aniketsingh/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></Users/aniketsingh/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></Users/aniketsingh/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr12.pfb></Users/aniketsingh/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr17.pfb></Users/aniketsingh/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr8.pfb></Users/aniketsingh/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri12.pfb></Users/aniketsingh/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></Users/aniketsingh/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></Users/aniketsingh/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on termPaper.pdf (10 pages, 713709 bytes).
+Output written on termPaper.pdf (10 pages, 714229 bytes).
 PDF statistics:
  265 PDF objects out of 1000 (max. 8388607)
  214 compressed objects within 3 object streams
