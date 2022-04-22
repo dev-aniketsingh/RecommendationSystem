@@ -76,7 +76,7 @@ There are multiple mitigation techniques that can be used to resolve this issue 
 The matrix factorization model factorizes the rating matrix into the product of two lower-rank matrix.
 Matrix facotization is one of the most reiable model to build a recommendation system.
 \
-Let $\mathbb{R} \in \mathbb{R}^{p \times q}$ denote the interation matrix with 'p' number of users and 'q' number of products. Then the user-item matrix will be factorized into a user latent matrix $\textbf{A} \in \mathbb{R}^{p \times k}$ and a product latent matrix $\textbf{B} \in \mathbb{R}^{q \times k}$ where  k < p, k < q.
+Let $\mathbb{R} \in \mathbb{R}^{p \times q}$ denote the interaction matrix with 'p' number of users and 'q' number of products. Then the user-item matrix will be factorized into a user latent matrix $\textbf{A} \in \mathbb{R}^{p \times k}$ and a product latent matrix $\textbf{B} \in \mathbb{R}^{q \times k}$ where  k < p, k < q.
 \
 Here, \textbf{k} denotes the latent factor size. Let $a_u$ denote the u$^{\text{th}}$ row of \textbf{A} and $b_i$ denote the i$^{\text{th}}$ row of \textbf{B}.
 \
